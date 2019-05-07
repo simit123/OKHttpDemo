@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
          *      Response getResponseWithInterceptorChain() throws IOException {
          *     // Build a full stack of interceptors.
          *     List<Interceptor> interceptors = new ArrayList<>();
-         *     interceptors.addAll(client.interceptors());//？？？？这个拦截器列表是什么意思
+         *     interceptors.addAll(client.interceptors());//用户自定义的拦截器列表
          *     //失败和重定向过滤器
          *     interceptors.add(retryAndFollowUpInterceptor);
          *     //封装request和response的过滤器
